@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .boxes{
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .box{
+        height: 10%;
+        width: 100px;
+        background-color: black;
+        animation-name: hello;
+        animation-duration: 10s;
+        animation-iteration-count: 1;
+    }
+    /* @keyframes hello{
+        from{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+        }
+
+        to{ 
+            height: 98vh;
+            width: 195vh;
+            background-color: blueviolet;
+        } 
+    }*/
+
+    .box2{
+        height: 10%;
+        width: 100px;
+        background-color: black;
+        animation-name: helloo;
+        animation-duration: 8s;
+        position: relative;
+        
+    }
+    @keyframes helloo{
+        0%{
+            left:0;
+            top: 0;
+            background-color: rgb(169, 102, 213);
+
+        }
+        25%{
+            left: 500px;
+            top: 0;
+            background-color: red;
+
+        }
+        50%{
+            top: 50px;
+            left: 500px;
+            background-color: yellow;
+
+        }
+        75%{
+            top: 50px;
+            left: 0px;
+            background-color: aquamarine;
+        }
+        100%{
+            top: 0px;
+            left: 0px;
+            background-color: black;
+
+        } 
+    }
+
+    .box3{
+        display: flex;
+    }
+
+    .box3-1{
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+        background-color: black;
+        cursor: pointer;
+        /* transition-property:background-color,height,width, border-radius;
+        transition: 5s; */
+        transition: all 5s;
+    }
+
+    .box3-1:hover{
+        background-color: red;
+        height: 300px;
+        width: 300px;
+        border-radius:200px ;
+        /* transform: rotate(360deg);  */
+        /* transform: translateX(250px); */
+        /* transform: scale(2); */
+        /* transform: skew(180deg);
+        transform: skewY(-45deg);
+        transform: skew(45deg 90deg); */
+
+    }
+</style>
+<body>
+    <div class="boxes">
+    <div class="box"></div>
+    <br>
+    <div class="box2"></div>
+    <br><br><br><br>
+    <div class="box3">
+        <div class="box3-1"></div>
+        <div class="box3-1"></div>
+        <div class="box3-1">
+            <img src="/si_food/images/logoo.png" height="100%" width="100%">
+        </div>
+        <div class="box3-1"></div>
+        <div class="box3-1"></div>
+    </div>
+
+</div>
+</body>
+</html>
