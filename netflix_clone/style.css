@@ -6,25 +6,25 @@ body {
 
 .container {
     height: 600vh;
-    background-color: black;
-
+    background-color: rgb(35, 35, 35, 1)
 }
 
 .main {
-    height: 16%;
+    height: 16.5%;
+    width: 99.8%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(images/background.jpg);
-    border: 2px dashed red;
+    border: 1px dashed red;
     /* background-blend-mode: multiply; */
 }
 
 .navbar {
-    border: 2px dashed yellow;
+    border: 1px dashed yellow;
     height: 11.5%;
     display: flex;
 }
 
 .logo {
-    border: 2px dashed green;
+    border: 1px dashed green;
     height: 100%;
     width: 32%;
     display: flex;
@@ -40,7 +40,7 @@ body {
 .btnbar {
     height: 100%;
     width: 67.5%;
-    border: 2px dashed blue;
+    border: 1px dashed blue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +95,7 @@ select {
 }
 
 .outerbox {
-    border: 2px dashed green;
+    border: 1px dashed green;
     height: 88%;
     width: 100%;
     display: flex;
@@ -104,36 +104,133 @@ select {
 }
 
 .innerbox {
-    border: 2px dashed green;
+    border: 1px dashed green;
     height: 50%;
     width: 60%;
     color: white;
 }
 
-.box1{
-    border: 2px dashed green;
-    height: 31%;
+.box1 {
+    border: 1px dashed green;
+    height: 30%;
     width: 100%;
     /* font-size:3em; */
-    font-size: clamp(2rem,1vw,3rem);
+    font-size: 3vw;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.box2{
-    border: 2px dashed yellow;
-    height: 20%;
+.box2 {
+    border: 1px dashed yellow;
+    height: 16%;
     width: 100%;
+    font-size: 1.7vw;
+    display: flex;
+    align-items: top;
+    justify-content: center;
 }
-.box3{
-    border: 2px dashed orange;
+
+.box3 {
+    border: 1px dashed orange;
     height: 15%;
     width: 100%;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: top;
+    justify-content: center;
 }
-.box4{
-    border: 2px dashed red;
-    height: 30%;
+
+.box4 {
+    border: 1px dashed red;
+    height: 37%;
     width: 100%;
 }
 
 .scroll {
-    height: 30%;
+    margin-top: 0.6rem;
+    height: 13.5%;
+    background-color: black;
+    border: 1px dashed red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ibox1 {
+    border: 1px dashed yellow;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.ibox2 {
+    border: 1px dashed rgba(0, 255, 110, 0.798);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.txtarea1{
+    border: 1px dashed rgba(84, 104, 255, 0.798);
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.desc1{
+    border: 1px dashed yellow;
+    height: 50%;
+    width: 100%;
+    font-size: 3.4vw;
+    font-weight: bolder;
+    display: flex;
+    align-items: end;
+    justify-content: left;
+
+}
+
+.desc2{
+    border: 1px dashed rgb(255, 179, 56);
+    height: 50%;
+    width: 100%;
+    font-size: 1.8vw;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    padding-top: 1rem;
+
+}
+
+.imagebox{
+    border: 1px dashed rgba(249, 126, 220, 0.798);
+    height: 75%;
+    width: 77%;
+}
+
+.imagebox img{
+    height: 100%;
+}
+
+.ques {
+    margin-top: 0.6rem;
+    height: 17.3%;
+    background-color: black;
+    border: 1px dashed red;
+}
+
+.footer {
+    margin-top: 0.6rem;
+    height: 10.5%;
+    background-color: black;
+    border: 1px dashed red;
 }
